@@ -5,11 +5,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using Autodesk.Revit.ApplicationServices;
 using Autodesk.Revit.UI;
+
 #endregion
 
 namespace xUnitRevit
 {
-  class App : IExternalApplication
+  internal class App : IExternalApplication
   {
     public Result OnStartup(UIControlledApplication a)
     {
