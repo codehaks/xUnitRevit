@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RevitVersion>2023</RevitVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Speckle.Revit.API" Version="2023.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <ProjectReference Include="..\..\xUnitRevitUtils\xUnitRevitUtils2023\xUnitRevitUtils2023.csproj" />
+  </ItemGroup>
+</Project>

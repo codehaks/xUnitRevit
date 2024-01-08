@@ -1,0 +1,141 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleLibrary", "SampleLibrary\SampleLibrary.csproj", "{C3A8684E-15BB-4B8B-B46C-35ACE3729C35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{F5A2849D-7C58-4894-B9C5-8488E244B7CF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xUnitRevitUtils", "xUnitRevitUtils", "{EDC05463-E574-4FF0-8518-D93D70EC138C}"
+	ProjectSection(SolutionItems) = preProject
+		xUnitRevitUtils\Directory.Build.props = xUnitRevitUtils\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitUtils2023", "xUnitRevitUtils\xUnitRevitUtils2023\xUnitRevitUtils2023.csproj", "{637136C9-AB5D-4F00-948E-C68FAE2682D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitUtils2022", "xUnitRevitUtils\xUnitRevitUtils2022\xUnitRevitUtils2022.csproj", "{1FBB8939-AEF1-4ED6-906D-AEB676BB683E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitUtils2021", "xUnitRevitUtils\xUnitRevitUtils2021\xUnitRevitUtils2021.csproj", "{441C42B5-400D-4EA3-9F2A-26B80CF37E8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitUtils2020", "xUnitRevitUtils\xUnitRevitUtils2020\xUnitRevitUtils2020.csproj", "{6118A3C3-479F-4CA9-BB00-9FCBF55BF8B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitUtils2019", "xUnitRevitUtils\xUnitRevitUtils2019\xUnitRevitUtils2019.csproj", "{469F8B29-F14E-49E8-B145-8C4FEF9D68CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra", "Extra", "{B01105F5-963D-42C3-BFA7-2D26AC375D07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xUnitRevitRunner", "xUnitRevitRunner", "{CF685C5E-70E1-40C5-BCFD-1E27695F0364}"
+	ProjectSection(SolutionItems) = preProject
+		xUnitRevitRunner\Directory.Build.props = xUnitRevitRunner\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "xUnitRevitRunnerShared", "xUnitRevitRunner\xUnitRevitRunnerShared\xUnitRevitRunnerShared.shproj", "{2B4F4767-CF26-485B-ADB3-751250EB1CDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitRunner2019", "xUnitRevitRunner\xUnitRevitRunner2019\xUnitRevitRunner2019.csproj", "{E3A15534-FB02-4CE2-8126-22E60EB1922E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitRunner2020", "xUnitRevitRunner\xUnitRevitRunner2020\xUnitRevitRunner2020.csproj", "{3782DB94-2F99-4449-B727-D5E4172964AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitRunner2021", "xUnitRevitRunner\xUnitRevitRunner2021\xUnitRevitRunner2021.csproj", "{66615756-3C3F-4A46-9C00-D6BA2493B6FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitRunner2022", "xUnitRevitRunner\xUnitRevitRunner2022\xUnitRevitRunner2022.csproj", "{72816F5F-F86C-4A84-A4BB-9C05F2CD5320}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "xUnitRevitRunner2023", "xUnitRevitRunner\xUnitRevitRunner2023\xUnitRevitRunner2023.csproj", "{97D93392-9484-484F-9F5F-60C5F3D67045}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "speckle.xunit.runner.wpf", "speckle.xunit.runner.wpf\speckle.xunit.runner.wpf\speckle.xunit.runner.wpf.csproj", "{54B0C195-2AF8-47EE-805A-07F8FD1E7CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnitRevitRunner2024", "xUnitRevitRunner\xUnitRevitRunner2024\xUnitRevitRunner2024.csproj", "{BD3AB395-5598-4468-9829-D9D8F889F991}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3A8684E-15BB-4B8B-B46C-35ACE3729C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A8684E-15BB-4B8B-B46C-35ACE3729C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A8684E-15BB-4B8B-B46C-35ACE3729C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A8684E-15BB-4B8B-B46C-35ACE3729C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637136C9-AB5D-4F00-948E-C68FAE2682D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637136C9-AB5D-4F00-948E-C68FAE2682D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637136C9-AB5D-4F00-948E-C68FAE2682D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637136C9-AB5D-4F00-948E-C68FAE2682D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FBB8939-AEF1-4ED6-906D-AEB676BB683E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FBB8939-AEF1-4ED6-906D-AEB676BB683E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FBB8939-AEF1-4ED6-906D-AEB676BB683E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FBB8939-AEF1-4ED6-906D-AEB676BB683E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441C42B5-400D-4EA3-9F2A-26B80CF37E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441C42B5-400D-4EA3-9F2A-26B80CF37E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441C42B5-400D-4EA3-9F2A-26B80CF37E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441C42B5-400D-4EA3-9F2A-26B80CF37E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6118A3C3-479F-4CA9-BB00-9FCBF55BF8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6118A3C3-479F-4CA9-BB00-9FCBF55BF8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6118A3C3-479F-4CA9-BB00-9FCBF55BF8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6118A3C3-479F-4CA9-BB00-9FCBF55BF8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{469F8B29-F14E-49E8-B145-8C4FEF9D68CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{469F8B29-F14E-49E8-B145-8C4FEF9D68CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{469F8B29-F14E-49E8-B145-8C4FEF9D68CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{469F8B29-F14E-49E8-B145-8C4FEF9D68CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3A15534-FB02-4CE2-8126-22E60EB1922E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3A15534-FB02-4CE2-8126-22E60EB1922E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3A15534-FB02-4CE2-8126-22E60EB1922E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3A15534-FB02-4CE2-8126-22E60EB1922E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3782DB94-2F99-4449-B727-D5E4172964AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3782DB94-2F99-4449-B727-D5E4172964AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3782DB94-2F99-4449-B727-D5E4172964AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3782DB94-2F99-4449-B727-D5E4172964AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66615756-3C3F-4A46-9C00-D6BA2493B6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66615756-3C3F-4A46-9C00-D6BA2493B6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66615756-3C3F-4A46-9C00-D6BA2493B6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66615756-3C3F-4A46-9C00-D6BA2493B6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72816F5F-F86C-4A84-A4BB-9C05F2CD5320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72816F5F-F86C-4A84-A4BB-9C05F2CD5320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72816F5F-F86C-4A84-A4BB-9C05F2CD5320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72816F5F-F86C-4A84-A4BB-9C05F2CD5320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D93392-9484-484F-9F5F-60C5F3D67045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D93392-9484-484F-9F5F-60C5F3D67045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D93392-9484-484F-9F5F-60C5F3D67045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D93392-9484-484F-9F5F-60C5F3D67045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B0C195-2AF8-47EE-805A-07F8FD1E7CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B0C195-2AF8-47EE-805A-07F8FD1E7CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B0C195-2AF8-47EE-805A-07F8FD1E7CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B0C195-2AF8-47EE-805A-07F8FD1E7CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3AB395-5598-4468-9829-D9D8F889F991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3AB395-5598-4468-9829-D9D8F889F991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3AB395-5598-4468-9829-D9D8F889F991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3AB395-5598-4468-9829-D9D8F889F991}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3A8684E-15BB-4B8B-B46C-35ACE3729C35} = {B01105F5-963D-42C3-BFA7-2D26AC375D07}
+		{637136C9-AB5D-4F00-948E-C68FAE2682D0} = {EDC05463-E574-4FF0-8518-D93D70EC138C}
+		{1FBB8939-AEF1-4ED6-906D-AEB676BB683E} = {EDC05463-E574-4FF0-8518-D93D70EC138C}
+		{441C42B5-400D-4EA3-9F2A-26B80CF37E8E} = {EDC05463-E574-4FF0-8518-D93D70EC138C}
+		{6118A3C3-479F-4CA9-BB00-9FCBF55BF8B8} = {EDC05463-E574-4FF0-8518-D93D70EC138C}
+		{469F8B29-F14E-49E8-B145-8C4FEF9D68CA} = {EDC05463-E574-4FF0-8518-D93D70EC138C}
+		{2B4F4767-CF26-485B-ADB3-751250EB1CDB} = {CF685C5E-70E1-40C5-BCFD-1E27695F0364}
+		{E3A15534-FB02-4CE2-8126-22E60EB1922E} = {CF685C5E-70E1-40C5-BCFD-1E27695F0364}
+		{3782DB94-2F99-4449-B727-D5E4172964AD} = {CF685C5E-70E1-40C5-BCFD-1E27695F0364}
+		{66615756-3C3F-4A46-9C00-D6BA2493B6FA} = {CF685C5E-70E1-40C5-BCFD-1E27695F0364}
+		{72816F5F-F86C-4A84-A4BB-9C05F2CD5320} = {CF685C5E-70E1-40C5-BCFD-1E27695F0364}
+		{97D93392-9484-484F-9F5F-60C5F3D67045} = {CF685C5E-70E1-40C5-BCFD-1E27695F0364}
+		{54B0C195-2AF8-47EE-805A-07F8FD1E7CAA} = {B01105F5-963D-42C3-BFA7-2D26AC375D07}
+		{BD3AB395-5598-4468-9829-D9D8F889F991} = {CF685C5E-70E1-40C5-BCFD-1E27695F0364}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CD726E4-6BBA-4FC3-9C57-0981EF1A9475}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		xUnitRevitRunner\xUnitRevitRunnerShared\xUnitRevitRunnerShared.projitems*{2b4f4767-cf26-485b-adb3-751250eb1cdb}*SharedItemsImports = 13
+		xUnitRevitRunner\xUnitRevitRunnerShared\xUnitRevitRunnerShared.projitems*{3782db94-2f99-4449-b727-d5e4172964ad}*SharedItemsImports = 5
+		xUnitRevitRunner\xUnitRevitRunnerShared\xUnitRevitRunnerShared.projitems*{66615756-3c3f-4a46-9c00-d6ba2493b6fa}*SharedItemsImports = 5
+		xUnitRevitRunner\xUnitRevitRunnerShared\xUnitRevitRunnerShared.projitems*{72816f5f-f86c-4a84-a4bb-9c05f2cd5320}*SharedItemsImports = 5
+		xUnitRevitRunner\xUnitRevitRunnerShared\xUnitRevitRunnerShared.projitems*{97d93392-9484-484f-9f5f-60c5f3d67045}*SharedItemsImports = 5
+		xUnitRevitRunner\xUnitRevitRunnerShared\xUnitRevitRunnerShared.projitems*{bd3ab395-5598-4468-9829-d9d8f889f991}*SharedItemsImports = 4
+		xUnitRevitRunner\xUnitRevitRunnerShared\xUnitRevitRunnerShared.projitems*{e3a15534-fb02-4ce2-8126-22e60eb1922e}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

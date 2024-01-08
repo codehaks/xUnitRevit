@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RevitVersion>2019</RevitVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ModPlus.Revit.API.2019" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+
+    <ProjectReference Include="..\..\xUnitRevitUtils\xUnitRevitUtils2019\xUnitRevitUtils2019.csproj" />
+  </ItemGroup>
+</Project>
